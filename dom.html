@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function mouse() {
+        var a = (document.getElementById("text").style.color = "red");
+      }
+      function out() {
+        var b = (document.getElementById("text").style.color = "violet");
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="handleClick()">click me</button>
+    <p id="text">please click me</p>
+    <button onmouseover="mouse()" onmouseout="out()">mouse</button>
+  </body>
+</html>
